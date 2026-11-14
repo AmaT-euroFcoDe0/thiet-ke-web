@@ -1,0 +1,47 @@
+:root{
+    --mau-mot: #F4BE38;
+    --mau-hai: #EDDA5E;
+    --mau-ba: #71951E;
+    --mau-bon: #587529;
+}
+
+.header-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.logo-container {
+    background: var(--mau-ba);
+    padding: 10px;
+    color: white;
+    align-items: center;
+    display: grid;
+    place-items: center;
+}
+
+.search-container {
+    background: var(--mau-ba);
+    padding: 10px;
+    color: white;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr auto;
+}
+
+.search-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 24px;
+    border: 1px solid var(--mau-bon);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.search-button {
+    background-color: var(--mau-hai);
+    min-width: 100px;
+    min-height: 30px;
+    font-size: 15pt;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}

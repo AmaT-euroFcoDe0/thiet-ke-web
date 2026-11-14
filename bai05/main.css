@@ -1,8 +1,8 @@
 :root{
---mau-mot: #FBA17E;
---mau-hai: #F7D794;
---mau-ba: #FF9A00;
---mau-bon: #EE6200;
+    --mau-mot: #FBA17E;
+    --mau-hai: #F7D794;
+    --mau-ba: #FF9A00;
+    --mau-bon: #EE6200;
 }
 
 .header-grid-container{
@@ -105,10 +105,47 @@
 
 .product-price{
     color: var(--mau-bon);
-    font-size: 11pt;
+    font-size: 15pt;
 }
 
 .logo{
     width: 100px;
     height: 100px;
+}
+
+.all-category-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item-category-container{
+    display: grid;
+    background: snow;
+    place-items: center;
+}
+
+.img-category{
+    width: 50px;
+    height: 50px;
+}
+
+.name-category{
+    font-size: 16pt;
+    color: var(--mau-bon);
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: var(--mau-ba);
+}
+
+.item-footer{
+    display: grid;
+    padding-left: 20px;
+    place-items: center;
+    color: white;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
